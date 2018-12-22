@@ -1,5 +1,4 @@
-from Executer import MainExecuter
+import Executer
 
 if __name__ == "__main__":
-    MainExecuter()
-    pass
+    Executer.MainExecuter(['google.com','facebook.com'])
